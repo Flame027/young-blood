@@ -7,7 +7,7 @@
 # Thereafter, I am no longer used and needed.
 #
 
-.PHONY: run
+MAKELIB ?= ../../../makelib
 
 run: makefile
 	$(MAKE) -f makefile
